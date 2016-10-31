@@ -44,6 +44,9 @@ function display(){
 }
 
 function myBio(){
-    document.getElementById("background").innerHTML = "I'm a Computer Science major.";
+    document.getElementById("background").innerHTML = "I'm a Computer Science major"+' '+
+    "at the University at Buffalo, NY."+'\n'+"I grew up in Suwon, South Korea and moved to Ithaca, NY"+
+    ' '+"when I was thirteen.";
 }
+myBio();
 display();
