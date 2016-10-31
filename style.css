@@ -1,0 +1,13 @@
+
+.clockAndDateStyle {
+	text-align: center;
+	color: black;
+	font-family: 'Alef', sans-serif;
+	font-size :60px;
+	/*text-shadow: 3px 5px 3px #aaa;*/
+}
+
+.onlyFont{
+	font-family: 'Alef', sans-serif;
+	color:white;
+}
