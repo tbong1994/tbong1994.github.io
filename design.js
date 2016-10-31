@@ -11,12 +11,14 @@ function clock(){
     day = date.getDay();
     days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     h = date.getHours();
+    var amOrPm = "AM";
     if(h<10)
     {
         h = "0"+h;
     }
     else if(h>12){
     	h = h%12;
+        amOrPm = "PM";
     }
     m = date.getMinutes();
     if(m<10)
@@ -29,7 +31,7 @@ function clock(){
     //         s = "0"+s;
     // }
     dateToDisplay= months[month]+' '+ todaysDate+' '+days[day] +' '+year;
-    clockToDisplay = h+':'+m;
+    clockToDisplay = h+':'+m+ ' ' + amOrPm;
     document.getElementById("date").innerHTML = dateToDisplay;
     document.getElementById("clock").innerHTML = clockToDisplay;
     setTimeout(clock,'1000');
@@ -40,4 +42,7 @@ function display(){
 	clock();
 }
 
+function myBio(){
+    document.getElementById("background").innerHTML = "I'm a Computer Science major.";
+}
 display();

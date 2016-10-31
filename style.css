@@ -11,6 +11,15 @@
 	font-family: 'Alef', sans-serif;
 	color:white;
 }
-.align-center {
-	align-content: center;
+.social{
+	
+}
+.image {
+	width:30px;
+	height:30px;
+	top:50%;
+	margin-left: 50%;
+	margin-right: 50%;
+	/*align-content: center;*/
+	position:relative;
 }
