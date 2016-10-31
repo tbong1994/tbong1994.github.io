@@ -1,0 +1,28 @@
+
+.clockAndDateStyle {
+	text-align: center;
+	color: black;
+	font-family: 'Alef', sans-serif;
+	font-size :60px;
+	/*text-shadow: 3px 5px 3px #aaa;*/
+}
+
+.onlyFont{
+	font-family: 'Alef', sans-serif;
+	color:white;
+}
+.align-center {
+	position: relative;
+}
+.social{
+	
+}
+.image {
+	width:30px;
+	height:30px;
+	top:50%;
+	margin-left: 50%;
+	margin-right: 50%;
+	/*align-content: center;*/
+	position:relative;
+}
