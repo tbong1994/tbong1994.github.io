@@ -1,15 +1,6 @@
 
 //JS FOR THE WEBSITE.
 
-// var cv = document.getElementById("canvas");
-// var ctx = cv.getContext("2d");
-
-// //SET WIDTH AND HEIGHT
-// function setUp(){
-// 	ctx.canvas.width = window.innerWidth;
-// 	ctx.canvas.height = window.innerHeight;
-// }
-
 //DISPLAY TIME
 function clock(){
 	date = new Date;
