@@ -12,14 +12,14 @@
 	color:black;
 }
 .social{
-	
+	text-align:center;
 }
 .image {
 	width:30px;
 	height:30px;
-	top:50%;
+	/*top:50%;
 	margin-left: 50%;
-	margin-right: 50%;
+	margin-right: 50%;*/
 	/*align-content: center;*/
 	position:relative;
 }
