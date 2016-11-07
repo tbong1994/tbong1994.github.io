@@ -9,4 +9,10 @@ function myProjects(){
     "<br>You should try and play!";
 }
 
+//SOURCE WEBSITES FOR THE PROJECT.
+function sources(){
+	document.getElementById("sources").innerHTML="<br>"+
+	""
+}
+
 myProjects();
