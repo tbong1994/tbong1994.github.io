@@ -1,7 +1,7 @@
 
 .clockAndDateStyle {
 	text-align: center;
-	color: #F2635F;
+	color: #0093D1;
 	font-family: 'Alef', sans-serif;
 	font-size :60px;
 	/*text-shadow: 3px 5px 3px #aaa;*/
@@ -24,43 +24,43 @@
 	position:relative;
 }
 #socialTitle{
-	color:#E0A025;
+	color:#F2635F;
 }
 #pokemonlink{
 	color:#F2635F;
 }
 body{
-	background-color: white;
+	background-color: whitesmoke;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: white;  /*Sets the text hover color on navbar*/
+	color: white;  /*Sets the text hover color on navbar*/
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
  a:hover, .navbar-default .navbar-nav > .active > a:focus {
-color: white; /*BACKGROUND color for active*/
-background-color: #0093D1;
+	color: white; /*BACKGROUND color for active*/
+	background-color: #006495;
 }
 
 .navbar-default {
-background-color: #006495;
-border-color: #030033;
+	background-color: #006495;
+	border-color: #030033;
 }
 
 .dropdown-menu > li {
-color: white;
-text-decoration: none;
-background-color: #006495;  /*change color of links in drop down here*/
+	color: white;
+	text-decoration: none;
+	background-color: #006495;  /*change color of links in drop down here*/
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-text-decoration: none;
-background-color: silver; /*Change rollover cell color here*/
+	text-decoration: none;
+	background-color: silver; /*Change rollover cell color here*/
 }
 
 .navbar-default .navbar-nav > li > a {
-color: white; /*Change active text color here*/
+	color: white; /*Change active text color here*/
 }
 .navbar-default .navbar-brand{ 
 	color:white; /*THOMAS BONG text color*/
