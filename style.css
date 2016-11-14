@@ -68,3 +68,13 @@ body{
 .dropdownmenucolor{
 	color:white;
 }
+div#divInterests{
+	width :450px;
+	align-content: center;
+	text-align: left;
+}
+div#divBackground{
+	width :450px;
+	align-content: center;
+	text-align: left;
+}
