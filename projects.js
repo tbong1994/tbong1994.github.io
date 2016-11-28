@@ -1,5 +1,4 @@
 
-
 function myProjects(){
     document.getElementById("divProjects").innerHTML = "This game is a 2d game and written completely in Javascript and HTML."+
     "I mainly used Phaser.js library for the game physics and sprite animations."+

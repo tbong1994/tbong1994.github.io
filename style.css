@@ -33,7 +33,7 @@ body{
 	background-color: whitesmoke;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: white;  /*Sets the text hover color on navbar*/
+	color: black;  /*Sets the text hover color on navbar*/
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
@@ -56,9 +56,8 @@ body{
 .nav > li > a:hover,
 .nav > li > a:focus {
 	text-decoration: none;
-	background-color: silver; /*Change rollover cell color here*/
+	background-color: black; /*Change rollover cell color here*/
 }
-
 .navbar-default .navbar-nav > li > a {
 	color: white; /*Change active text color here*/
 }
@@ -72,9 +71,20 @@ div#divInterests{
 	width :450px;
 	align-content: center;
 	text-align: left;
+	font-family: 'Alef', sans-serif;
 }
 div#divBackground{
 	width :450px;
 	align-content: center;
 	text-align: left;
+	font-family: 'Alef', sans-serif;
+}
+div#divProjects{
+	width :950px;
+	align-content: left;
+	text-align: left;
+	font-family: 'Alef', sans-serif;
+}
+nav#navBar > li > a:hover{
+	color: black;
 }
