@@ -24,9 +24,11 @@
 	position:relative;
 }
 #socialTitle{
+	font-size: 50px;
 	color:#F2635F;
 }
 #pokemonlink{
+	font-size: 50px;
 	color:#F2635F;
 }
 body{
@@ -91,4 +93,11 @@ div#divProjects{
 }
 nav#navBar > li > a:hover{
 	color: black;
+}
+div#ublogo{
+	top:40%;
+	margin-left: 40%;
+	margin-right: 60%;
+	align-content: center;
+	position:absolute;
 }
