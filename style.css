@@ -86,6 +86,7 @@ div#divBackground{
 	font-family: 'Alef', sans-serif;
 }
 div#divProjects{
+	/*background-image: url("pokemonhunt_gameplay.png");*/
 	width :950px;
 	align-content: left;
 	text-align: left;
@@ -95,9 +96,13 @@ nav#navBar > li > a:hover{
 	color: black;
 }
 div#ublogo{
-	top:40%;
+	top:55%;
 	margin-left: 40%;
-	margin-right: 60%;
+	margin-right: 50%;
 	align-content: center;
 	position:absolute;
+}
+img{
+	opacity : 0.8;
+	filter: alpha(opacity=80);
 }
