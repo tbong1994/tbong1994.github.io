@@ -1,9 +1,9 @@
 
 .clockAndDateStyle {
 	text-align: center;
-	color: #0093D1;
+	color: #F5B041;
 	font-family: 'Alef', sans-serif;
-	font-size :60px;
+	font-size :80px;
 	/*text-shadow: 3px 5px 3px #aaa;*/
 }
 
@@ -30,7 +30,11 @@
 	color:#F2635F;
 }
 body{
-	background-color: whitesmoke;
+	/*background-image: url("chicago.JPG");
+	background-repeat: no-repeat;
+	background-position: center;*/	
+	background: #648880;
+	background: linear-gradient(to right, #CA6F1E);
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: black;  /*Sets the text hover color on navbar*/
@@ -39,11 +43,11 @@ body{
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
  a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: white; /*BACKGROUND color for active*/
-	background-color: #006495;
+	background-color: #34495E;
 }
 
 .navbar-default {
-	background-color: #006495;
+	background-color: #34495E;
 	border-color: #030033;
 }
 
