@@ -9,14 +9,14 @@
 
 .onlyFont{
 	font-family: 'Alef', sans-serif;
-	color:black;
+	/*color:black;*/
 }
 .social{
 	text-align:center;
 }
 .image {
-	width:30px;
-	height:30px;
+	width:40px;
+	height:40px;
 	/*top:50%;
 	margin-left: 50%;
 	margin-right: 50%;*/
@@ -74,8 +74,8 @@ body{
 	color:white;
 }
 div#divInterests{
-	width :450px;
-	align-content: center;
+	margin-left: 30%;
+	margin-right: 30%; 
 	text-align: left;
 	font-family: 'Alef', sans-serif;
 }
@@ -87,22 +87,43 @@ div#divBackground{
 }
 div#divProjects{
 	/*background-image: url("pokemonhunt_gameplay.png");*/
-	width :950px;
-	align-content: left;
+	/*align-content: center;*/
 	text-align: left;
+	margin: 10px 40px 10px 0;
 	font-family: 'Alef', sans-serif;
 }
 nav#navBar > li > a:hover{
 	color: black;
 }
-div#ublogo{
-	top:55%;
-	margin-left: 40%;
-	margin-right: 50%;
+div#homepagecontents{
+	/*top:55%;*/
+	margin-left: 30%;
+	margin-right: 30%;
 	align-content: center;
-	position:absolute;
+	position:relative;
 }
-img{
-	opacity : 0.8;
-	filter: alpha(opacity=80);
+div#interestscontents{
+/*	margin-left: 35%;
+	margin-right: 45%;*/
+	align-content: center;
+	position:relative;
+}
+div#ublogo{
+	/*top:100%;*/
+	margin-left: 25%;
+	/*margin-right: 55%;*/
+	align-content: center;
+	position:relative;
+}
+.gameplayimage{
+	/*opacity : 0.8;
+	filter: alpha(opacity=80);*/
+	float:left;
+	margin: 10px 20px 10px 20px;
+	width:860px; 
+	height :400px;
+	overflow: auto;
+}
+div#logos{
+	margin: 0 0 10px 0;
 }
