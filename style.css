@@ -74,11 +74,12 @@ body{
 	color:white;
 }
 div#divInterests{
-	margin-left: 30%;
-	margin-right: 30%; 
+	margin-left: 26%;
+	margin-right: 22%; 
 	text-align: left;
 	font-family: 'Alef', sans-serif;
 	font-size: 25px;
+	line-height: 200%;
 }
 div#divBackground{
 	margin-left: 30%;
@@ -87,6 +88,7 @@ div#divBackground{
 	text-align: left;
 	font-family: 'Alef', sans-serif;
 	font-size: 25px;
+	line-height: 200%;
 }
 div#divProjects{
 	/*background-image: url("pokemonhunt_gameplay.png");*/
@@ -95,6 +97,7 @@ div#divProjects{
 	margin: 10px 30px 10px 0;
 	font-family: 'Alef', sans-serif;
 	font-size: 25px;
+	line-height: 200%;
 }
 nav#navBar > li > a:hover{
 	color: black;
@@ -115,21 +118,25 @@ div#interestscontents{
 div#backgroundcontents{
 	/*margin-left: 35%;
 	margin-right: 45%;*/
+	width: auto;
+	object-fit: contain;
 	align-content: center;
 	position:relative;	
 }
 div#ublogo{
-	/*top:100%;*/
-	margin-left: 25%;
-	/*margin-right: 55%;*/
+
 	align-content: center;
 	position:relative;
+}
+img#ub{
+	object-fit: contain;
+	width: 100%;
+	height: auto;
 }
 .gameplayimage{
 	/*opacity : 0.8;
 	filter: alpha(opacity=80);*/
-	float:left;
-	margin: 10px 20px 10px 20px;
+	float:top;
 	width:860px; 
 	height :400px;
 	overflow: auto;
@@ -142,4 +149,12 @@ div#chicago{
 	margin: 10px 30px 0 10px;
 	opacity : 0.7;
 	filter: alpha(opacity=70);
+}
+div#gameimage{
+	float:left;
+	margin: 10px 20px 10px 20px;
+	overflow: auto;
+}
+div#imagesInInterestsParagraph{
+
 }
