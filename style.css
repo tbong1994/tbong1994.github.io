@@ -1,8 +1,17 @@
 
+
+/*****HOMEPAGE RELATED*****/
+div#homepagecontents{
+	/*top:55%;*/
+	margin-left: 30%;
+	margin-right: 30%;
+	align-content: center;
+	position:relative;
+}
 .clockAndDateStyle {
 	text-align: center;
 	color: #F5B041;
-	font-family: 'Alef', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 	font-size :80px;
 	/*text-shadow: 3px 5px 3px #aaa;*/
 }
@@ -23,11 +32,8 @@
 	/*align-content: center;*/
 	position:relative;
 }
-#socialTitle{
-	font-size: 50px;
-	color:#F2635F;
-}
-#pokemonlink{
+.titles{
+	font-family: 'Julius Sans One', sans-serif;
 	font-size: 50px;
 	color:#F2635F;
 }
@@ -35,9 +41,12 @@ body{
 	/*background-image: url("chicago.JPG");
 	background-repeat: no-repeat;
 	background-position: center;*/	
-	background: #648880;
+	background: #EAEDED;
 	background: linear-gradient(to right, #CA6F1E);
 }
+
+
+/*****NAVBAR RELATED*****/
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: black;  /*Sets the text hover color on navbar*/
 }
@@ -73,47 +82,36 @@ body{
 .dropdownmenucolor{
 	color:white;
 }
-div#divInterests{
-	margin-left: 26%;
-	margin-right: 22%; 
-	text-align: left;
-	font-family: 'Alef', sans-serif;
-	font-size: 25px;
-	line-height: 200%;
-}
-div#divBackground{
-	margin-left: 30%;
-	margin-right: 10%;
-	align-content: center;
-	text-align: left;
-	font-family: 'Alef', sans-serif;
-	font-size: 25px;
-	line-height: 200%;
-}
-div#divProjects{
-	/*background-image: url("pokemonhunt_gameplay.png");*/
-	/*align-content: center;*/
-	text-align: left;
-	margin: 10px 30px 10px 0;
-	font-family: 'Alef', sans-serif;
-	font-size: 25px;
-	line-height: 200%;
-}
 nav#navBar > li > a:hover{
 	color: black;
 }
-div#homepagecontents{
-	/*top:55%;*/
+
+
+/*****BACKGROUND PAGE RELATED*****/
+.backgroundparagraphright{
 	margin-left: 30%;
-	margin-right: 30%;
+	margin-right: 5%;
 	align-content: center;
-	position:relative;
+	text-align: left;
+	font-family: 'Alef', sans-serif;
+	font-size: 25px;
+	line-height: 200%;
+	color:#283747;
 }
-div#interestscontents{
-/*	margin-left: 35%;
-	margin-right: 45%;*/
+.backgroundparagraphleft{
+	margin-left: 5%;
+	margin-right: 20%;
+	margin-top: 10%;
 	align-content: center;
-	position:relative;
+	text-align: left;
+	font-family: 'Alef', sans-serif;
+	font-size: 25px;
+	line-height: 200%;
+	color:#283747;
+}
+div#introduction{
+	font-family: 'Parisienne', cursive;
+	font-size: 25px;
 }
 div#backgroundcontents{
 	/*margin-left: 35%;
@@ -123,15 +121,20 @@ div#backgroundcontents{
 	align-content: center;
 	position:relative;	
 }
-div#ublogo{
-
-	align-content: center;
-	position:relative;
-}
 img#ub{
+	margin-top: 50px;
 	object-fit: contain;
-	width: 100%;
+	width: 30%;
 	height: auto;
+}
+div#divProjects{
+	/*background-image: url("pokemonhunt_gameplay.png");*/
+	/*align-content: center;*/
+	text-align: left;
+	margin: 10px 30px 10px 0;
+	font-family: 'alef', sans-serif;
+	font-size: 25px;
+	line-height: 200%;
 }
 .gameplayimage{
 	/*opacity : 0.8;
@@ -141,20 +144,52 @@ img#ub{
 	height :400px;
 	overflow: auto;
 }
-div#logos{
-	margin: 0 0 10px 0;
+
+div#gamelinktitle{
+	font-family: 'Bangers',cursive;
+	font-size: 80px;
+	color: #F2635F;
 }
-div#chicago{
+
+/*****INTEREST PAGE RELATED*****/
+div#divInterests{
+	margin-left: 26%;
+	margin-right: 22%; 
+	text-align: left;
+	font-family: 'Alef', sans-serif;
+	font-size: 25px;
+	line-height: 200%;
+}
+div#interestscontents{
+/*	margin-left: 35%;
+	margin-right: 45%;*/
+	align-content: center;
+	position:relative;
+}
+div#imagesInInterestsParagraph{
+
+}
+
+
+/*****IMAGE RELATED*****/
+.rightimage{
+	float: right;
+	margin: 10px 30px 0 10px;
+	opacity : 0.7;
+	filter: alpha(opacity=70);
+}
+.leftimage{
 	float: left;
 	margin: 10px 30px 0 10px;
 	opacity : 0.7;
 	filter: alpha(opacity=70);
 }
+div#logos{
+	margin: 0 0 10px 0;
+}
 div#gameimage{
 	float:left;
 	margin: 10px 20px 10px 20px;
 	overflow: auto;
-}
-div#imagesInInterestsParagraph{
-
+	font-family: 'Audiowide', cursive;
 }

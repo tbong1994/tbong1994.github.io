@@ -2,7 +2,7 @@
 
 function paragraphs(){
     document.getElementById("paragraphOne").innerHTML = "As a Computer Scientist, I am interested in Software Engineering/Developing. "+
-    "As you may see from the 'project' tab I have done and still am developing software, be it a game or web application. "+
+    "As you may see from the 'project' tab, I have done and still am developing software, be it a game or web application. "+
     "My favorite programming language is Java, one of the reasons is because it was my first programming language to learn so I became very attached to Java. "+
     "Also, Java was the most eligible, writable, but also powerful language for a beginner as myself to start programming in. "+
     "But I also like Javascript and Python. "+"I do have preferences but I do appreciate the differences among various programming languages. "+
