@@ -1,5 +1,4 @@
 
-
 /*****HOMEPAGE RELATED*****/
 div#homepagecontents{
 	/*top:55%;*/
@@ -46,6 +45,7 @@ body{
 	background: #EAEDED;
 	background: linear-gradient(to right, #CA6F1E);
 }
+
 /*****CLOCK CSS*****/
 .clock {
   border-radius: 50%;
@@ -106,7 +106,7 @@ body{
   z-index: 8;
 }
 /*rotation animation*/
-@keyframes rotate {  
+@keyframes rotate {
   100% {
     transform: rotateZ(360deg);
   }
@@ -207,11 +207,12 @@ img#ub{
 	width: 30%;
 	height: auto;
 }
+
+
+/*****PROJECT PAGE RELATED*/
 div#divProjects{
-	/*background-image: url("pokemonhunt_gameplay.png");*/
-	/*align-content: center;*/
 	text-align: left;
-	margin: 10px 30px 10px 0;
+	/*margin-top :10%;*/
 	font-family: 'alef', sans-serif;
 	font-size: 25px;
 	line-height: 200%;
@@ -224,12 +225,18 @@ div#divProjects{
 	height :400px;
 	overflow: auto;
 }
-
 div#gamelinktitle{
 	font-family: 'Bangers',cursive;
 	font-size: 80px;
 	color: #F2635F;
 }
+div#gameimage{
+	float:left;
+	margin: 10px 20px 10px 20px;
+	overflow: auto;
+	font-family: 'Audiowide', cursive;
+}
+
 
 /*****INTEREST PAGE RELATED*****/
 div#divInterests{
@@ -246,10 +253,6 @@ div#interestscontents{
 	align-content: center;
 	position:relative;
 }
-div#imagesInInterestsParagraph{
-
-}
-
 
 /*****IMAGE RELATED*****/
 .rightimage{
@@ -266,10 +269,4 @@ div#imagesInInterestsParagraph{
 }
 div#logos{
 	margin: 0 0 10px 0;
-}
-div#gameimage{
-	float:left;
-	margin: 10px 20px 10px 20px;
-	overflow: auto;
-	font-family: 'Audiowide', cursive;
 }
