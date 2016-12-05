@@ -22,7 +22,7 @@ div#homepagecontents{
 }
 .social{
 	text-align:center;
-	margin-top: 10%;
+	margin-top: 2%
 }
 .image {
 	width:40px;
@@ -57,8 +57,8 @@ body{
   width: 5em;
   margin-top: 10%;
   /*object-fit: contain;*/
-}
-/*.clock.simple:after {
+}/*
+.clock.simple:after {
   background: #000;
   border-radius: 50%;
   content: "";
@@ -97,10 +97,10 @@ body{
 }
 .seconds {
   background: #000;
-  height: 45%;
-  left: 49.5%;
+  height: 27.5%;
+  left: 50.5%;
   position: absolute;
-  top: 14%;
+  top: 27.5%;
   transform-origin: 50% 80%;
   width: 1%;
   z-index: 8;
@@ -113,16 +113,16 @@ body{
 }
 /*hour hand full rotation takes 12 hours == 43200s */
 .hours-container {
-  animation: rotate 43200s infinite linear;
+  	animation: rotate 43200s infinite linear;
 }
 /*minute hand full rotation takes 1 hour == 3600s. Infinite steps allows rotate,stop,rotate motion. 
 each minute and second hand rotation has 60 steps(rotate,stop happens 60 times in 1 rotation)
 */
 .minutes-container {
-   animation: rotate 3600s infinite steps(60);
+   	animation: rotate 3600s infinite steps(60);
 }
 .seconds-container {
-  animation: rotate 60s infinite steps(60);
+	animation: rotate 60s infinite steps(60);
 }
 
 
