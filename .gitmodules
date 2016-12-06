@@ -1,0 +1,6 @@
+[submodule "rack"]
+	path = rack
+	url = git@github.com:tbong1994/PokemonHunt.git
+[submodule "pokemonhunt"]
+	path = pokemonhunt
+	url = git@github.com:tbong1994/PokemonHunt.git
