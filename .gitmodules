@@ -4,3 +4,9 @@
 [submodule "pokemonhunt"]
 	path = pokemonhunt
 	url = git@github.com:tbong1994/PokemonHunt.git
+[submodule "pokemon_hunt"]
+	path = pokemon_hunt
+	url = https://github.com/tbong1994/tbong1994.github.io
+[submodule "pokemon_hunt."]
+	path = pokemon_hunt.
+	url = https://github.com/tbong1994/PokemonHunt
