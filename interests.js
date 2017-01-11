@@ -12,7 +12,7 @@ function paragraphs(){
     document.getElementById("paragraphThree").innerHTML = "Computer programming is one of the few things in life which allow you to start from scratch and come up with something very powerful and useful. "+
     "You not only enjoy while programming to make something, but you also could accomplish a lot of things depending on what you want to achieve. "+
     "My perspective of programming is that you should create software that everybody could benefit from. "+
-    "Programming can not only make programmers great but the software we make could improve all of our lives. "+
+    "Programming cannot only make programmers great but the software we make could improve all of our lives. "+
     "If what I create could help somebody else, I'd have accomplished all.";
 }
 
