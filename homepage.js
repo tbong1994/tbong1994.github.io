@@ -16,7 +16,7 @@ function clock(){
     {
         hours = "0"+hours;
     }
-    else if(hours>12){
+    else if(hours>=12){
     	hours = hours%12;
         amOrPm = "PM";
     }
@@ -31,7 +31,6 @@ function clock(){
         seconds = "0"+seconds;
     }
     dateToDisplay= months[month]+' '+ todaysDate+' '+days[day] +' '+year;
-    clockToDisplay = hours+':'+minutes;
     clockToDisplay = hours+':'+minutes+ ' ' + amOrPm;
     document.getElementById("date").innerHTML = dateToDisplay;
     document.getElementById("clock").innerHTML = clockToDisplay;
