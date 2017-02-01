@@ -9,13 +9,11 @@ function myBio(){
     document.getElementById("what").innerHTML = "Apart from Computer Science, I like sports, movies, playing video games and hanging out with my friends. "+
     "I'm currently playing Fifa 17 on Xbox One-S. It's very realistic and I love playing it! It's always exciting to have friends come over and play together. "+
     "I always win, but I deliberately lose sometimes to not discourage them too much, you know? "+
-    "My friends are great. They're everything to me. Everyone around me gives me a great support and I cannot ever thank them enough. Especially my family and my closest friends, "+
+    "My friends are great. They're everything to me. Everyone around me gives me great support and I cannot ever thank them enough. Especially my family and my closest friends, "+
     "without whom I would not have been the person I am today.";
     
-    // document.getElementById("how").innerHTML = ""
-    
     document.getElementById("why").innerHTML = "Having fun is the most important thing in life. Of course, you cannot always have fun, but with "+
-    "positive attitude, you can always try to have fun. My father used to say, 'if you need to do something, don't complain. Enjoy them. You have to do it anyway. "+
+    "positive attitude, you can always try to have fun. My father used to say, 'If you know you must to do it, don't complain. Enjoy it. You have to do it anyway. "+
     "I used to detest hearing that as a kid, but now I agree. ";
     
     document.getElementById("where").innerHTML = "My real home is Suwon, South Korea. I was born there and spent most of my childhood. "+
